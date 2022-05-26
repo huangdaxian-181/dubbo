@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-kafka-logger" />
+        <module name="springboot-dubbp-common" />
+        <module name="springboot-dubbo-mybatis" />
+        <module name="springboot-dubbo-comsumer" />
+        <module name="provider" />
+        <module name="springboot-dubbo-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-kafka-logger" target="11" />
+      <module name="provider" target="11" />
+      <module name="springboot-dubbo-comsumer" target="11" />
+      <module name="springboot-dubbo-interface" target="11" />
+      <module name="springboot-dubbo-logger" target="11" />
+      <module name="springboot-dubbo-mybatis" target="11" />
+      <module name="springboot-dubbo-provider" target="11" />
+      <module name="springboot-dubbp-common" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="provider" options="-parameters" />
+      <module name="springboot-dubbo-comsumer" options="-parameters" />
+      <module name="springboot-dubbo-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

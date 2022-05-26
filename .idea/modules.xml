@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo.iml" filepath="$PROJECT_DIR$/dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-kafka-logger/dubbo-kafka-logger.iml" filepath="$PROJECT_DIR$/dubbo-kafka-logger/dubbo-kafka-logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider/provider.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-comsumer/springboot-dubbo-comsumer.iml" filepath="$PROJECT_DIR$/springboot-dubbo-comsumer/springboot-dubbo-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-interface/springboot-dubbo-interface.iml" filepath="$PROJECT_DIR$/springboot-dubbo-interface/springboot-dubbo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-mybatis/springboot-dubbo-mybatis.iml" filepath="$PROJECT_DIR$/springboot-dubbo-mybatis/springboot-dubbo-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbp-common/springboot-dubbp-common.iml" filepath="$PROJECT_DIR$/springboot-dubbp-common/springboot-dubbp-common.iml" />
+    </modules>
+  </component>
+</project>
